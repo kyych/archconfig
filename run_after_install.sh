@@ -3,7 +3,7 @@
 # RUN after installing ARCH with profile XORG
 
 function download_basic_tools(){
-    sudo pacman -S git python make gcc wget libxft libxinerama
+    sudo pacman -S git python make gcc wget libxft libxinerama ttf-dejavu
 }
 
 function download_and_install_DWM(){
