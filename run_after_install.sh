@@ -15,7 +15,7 @@ function download_and_install_DWM(){
     make all clean;
     sudo make clean install;
     touch ~/.xinitrc
-    echo "dwm &" >> ~/.xinitrc
+    echo "exec dwm" >> ~/.xinitrc
     cd ~;
 }
 
